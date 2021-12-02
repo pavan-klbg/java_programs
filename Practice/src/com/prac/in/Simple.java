@@ -17,6 +17,7 @@ static double cal( int amt,float rate, int yr){
 		 float rate=s.nextFloat();
 		 System.out.println("*** enter yrs******");
 		 int yr=s.nextInt();
+		 System.out.println("----FINAL CALCULATION AS FOLLOWS---");
 		System.out.println(cal(amt, rate, yr));
 	}
 
